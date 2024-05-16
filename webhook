@@ -1,0 +1,5 @@
+curl -X POST "https://api.eu.svix.com/api/v1/app/" \
+    -H  "Accept: application/json" \
+    -H  "Content-Type: application/json" \
+    -H  "Authorization: Bearer testsk_cI3oSNb9KGhNrhYBosWMGy72kMUdPOaW.eu" \
+    -d '{"name": "My first app", "uid": "qz33"}'
